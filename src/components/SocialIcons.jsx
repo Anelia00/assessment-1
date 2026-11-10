@@ -1,5 +1,12 @@
 import './SocialIcons.css';
 
+/**
+ * Social Icons Component
+ *
+ * Displays social media icons linking to external platforms.
+ * Keeps the icons in a reusable React component so they
+ * can be displayed consistently across the website.
+ */
 function SocialIcons({ direction = 'row' }) {
   return (
     <div className={`social-icons ${direction}`}>
