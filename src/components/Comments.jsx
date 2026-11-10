@@ -1,6 +1,13 @@
 import { comments } from '../data/content';
 import './Comments.css';
 
+/**
+ * Comments Component
+ *
+ * Displays the reader comments section of the blog.
+ * Keeps the comments separate from the main article
+ * to make the page easier to organise and maintain.
+ */
 function Comments() {
   return (
     <section className="comments">
