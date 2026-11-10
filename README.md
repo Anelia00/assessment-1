@@ -111,3 +111,13 @@ The desktop layout follows the supplied wireframe, while the tablet and mobile l
 - [Google Fonts](https://fonts.google.com/)
 
 ---
+## Project Structure
+
+This project uses reusable React components to organise
+the webpage into separate sections.
+
+Each component has its own CSS file to keep styling
+organised and easier to maintain.
+
+The layout uses responsive CSS to support desktop,
+tablet and mobile screen sizes.
