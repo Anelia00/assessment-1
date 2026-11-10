@@ -1,6 +1,13 @@
 import { articleSections } from '../articleData';
 import './Article.css';
 
+/**
+ * Article Component
+ *
+ * Displays the main blog article about Erased Tapes Records.
+ * Organises the article content into sections to match
+ * the supplied website layout.
+ */
 function Article() {
   return (
     <article className="article">
