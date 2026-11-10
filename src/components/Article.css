@@ -1,3 +1,15 @@
+/*
+ * Article Component Styles
+ *
+ * Controls the layout and presentation of the
+ * main Erased Tapes Records blog article.
+ *
+ * Defines the styling for article headings,
+ * paragraphs and content sections.
+ *
+ * Helps maintain readable text and consistent
+ * spacing throughout the article.
+ */
 .article {
   padding: 50px;
   background-color: #ffffff;
