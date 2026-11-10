@@ -1,0 +1,9 @@
+/* White content area that holds all the blog post sections */
+.content {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  background-color: var(--content-bg);
+/* Add a thin border to match the edges in the wireframe */  border: 1px solid var(--outline);
+  border-bottom: none;
+}

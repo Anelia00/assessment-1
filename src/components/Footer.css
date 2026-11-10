@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing);
+  padding: var(--spacing);
+  background-color: var(--footer-bg);
+  color: #ffffff;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+
+.footer {
+  width: 100%;
+  background-color: #14181d;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Keep it the same width as the main content */
+.footer nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+/* Keep the copyright text and social icons centred */
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0;
+}
