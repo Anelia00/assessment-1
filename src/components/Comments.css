@@ -1,3 +1,14 @@
+/*
+ * Reader Comments Styles
+ *
+ * Controls the appearance and layout of the
+ * comments section beneath the blog article.
+ *
+ * Defines spacing, text presentation and
+ * alignment to keep reader comments organised
+ * and easy to read.
+ */
+
 .comments {
   padding: var(--spacing);
   background-color: var(--page-bg);
