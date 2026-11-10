@@ -1,3 +1,13 @@
+/**
+ * Article Data
+ *
+ * Stores the content and information used by
+ * the Erased Tapes Records blog article.
+ *
+ * Keeping article data separate from React components
+ * helps organise the project and makes the content
+ * easier to update without modifying the page layout.
+ */
 export const articleSections = [
   {
     heading: "Heading",
