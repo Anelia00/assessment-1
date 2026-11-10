@@ -1,3 +1,14 @@
+/**
+ * Website Content Data
+ *
+ * Stores content used throughout the Erased Tapes
+ * Records website.
+ *
+ * Separating content from React components helps
+ * keep the application organised and makes it
+ * easier to update information independently
+ * of the page layout and styling.
+ */
 export const authorBio =
   "Meet the writer behind Erased Tapes. Passionate about discovering new music and sharing stories about independent artists and their creative journeys.";
 
