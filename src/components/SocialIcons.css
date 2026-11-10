@@ -1,3 +1,17 @@
+/*
+ * Social Media Icons Styles
+ *
+ * Controls the appearance and positioning of
+ * social media icons throughout the website.
+ *
+ * Maintains consistent icon dimensions and
+ * spacing to match the assessment requirements.
+ *
+ * Helps keep social media links visually
+ * organised across different screen sizes.
+ */
+
+
 /* Social media icons */
 .social-icons {
   display: flex;
