@@ -1,3 +1,10 @@
+/**
+ * Album Gallery Component
+ *
+ * Displays the album artwork featured in the blog.
+ * Uses a reusable React component to organise the images.
+ * The gallery layout adapts to different screen sizes.
+ */
 import './AlbumGrid.css';
 
 // Album images are saved in the public/images folder
