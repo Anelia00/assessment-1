@@ -1,3 +1,14 @@
+/*
+ * Navigation Links Styles
+ *
+ * Uses Flexbox to arrange the navigation links
+ * horizontally with even spacing.
+ *
+ * Defines the appearance of navigation text
+ * and provides visual feedback when users
+ * hover over links or navigate using a keyboard.
+ */
+
 /* Space out the links evenly across the width */
 .nav-links {
   display: flex;
