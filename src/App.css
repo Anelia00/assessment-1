@@ -1,3 +1,14 @@
+/*
+ * Main Application Styles
+ *
+ * Defines the overall layout and visual presentation
+ * of the Erased Tapes Records website.
+ *
+ * Works alongside the individual component stylesheets
+ * to maintain consistent spacing, alignment and layout
+ * across the application.
+ */
+
 /* White content area that holds all the blog post sections */
 .content {
   width: 100%;
