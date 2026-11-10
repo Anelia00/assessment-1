@@ -1,4 +1,16 @@
-
+/*
+ * Author Profile Styles
+ *
+ * Controls the appearance and layout of the
+ * author's information within the blog page.
+ *
+ * Defines the positioning of the profile image,
+ * biography text and surrounding elements.
+ *
+ * Maintains consistent spacing and alignment
+ * with the rest of the website.
+ */
+ 
 .author {
   display: flex;
   align-items: center;
