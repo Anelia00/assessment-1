@@ -2,8 +2,11 @@ import { navLinks } from '../data/content'
 import './NavLinks.css'
 
 /**
- * Navigation links used in both the header and footer.
- * className lets each section have its own colours and spacing.
+ * Navigation Links Component
+ *
+ * Displays the website's main navigation links.
+ * Uses a separate component to keep the navigation
+ * organised and reusable throughout the application.
  */
 function NavLinks({ className = '' }) {
   return (
