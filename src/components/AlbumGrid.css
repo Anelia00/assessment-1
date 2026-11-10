@@ -1,3 +1,16 @@
+/*
+ * Album Gallery Styles
+ *
+ * Controls the layout and presentation of the
+ * album artwork featured in the blog article.
+ *
+ * Organises album images into a structured grid
+ * and maintains consistent spacing and alignment.
+ *
+ * Supports responsive layouts so the gallery
+ * adapts to desktop, tablet and mobile screens.
+ */
+
 /* Make the featured album take up twice as much space in the grid */
 .album-grid {
   display: grid;
