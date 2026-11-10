@@ -2,7 +2,13 @@ import SocialIcons from './SocialIcons'
 import { authorBio } from '../data/content'
 import './Author.css'
 
-/* Author section with a short bio, round photo and social media icons */
+/**
+ * Author Profile Component
+ *
+ * Displays information about the blog article's author.
+ * Includes the author's profile picture, biography,
+ * and related profile information.
+ */
 function Author() {
   return (
     <section className="author">
