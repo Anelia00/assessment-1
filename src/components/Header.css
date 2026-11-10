@@ -1,3 +1,12 @@
+/*
+ * Header Component Styles
+ *
+ * Controls the layout and appearance of the website header.
+ * Uses Flexbox to align the logo and navigation elements.
+ *
+ * Maintains the required 200px logo size and provides
+ * consistent spacing between header elements.
+ */
 .header {
   display: flex;
   flex-direction: column;
