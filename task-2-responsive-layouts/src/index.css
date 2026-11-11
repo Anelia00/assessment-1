@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Teko:wght@400;500;600&display=swap');
+
+/* Colours, spacing and fonts used across the website */
+:root {
+  --brand-black: #070410;
+  --brand-purple: #231651;
+  --brand-teal: #4dccbd;
+  --brand-yellow: #eef36a;
+  --brand-white: #ffffff;
+
+  --space-small: 16px;
+  --space-large: 16px;
+
+  --content-max-width: 900px;
+
+  --font-heading: 'Teko', 'Impact', sans-serif;
+  --font-body: 'Lato', system-ui, sans-serif;
+}
+
+/* Increase spacing for tablet screens */
+@media (min-width: 720px) {
+  :root {
+    --space-large: 32px;
+  }
+}
+
+/* Increase spacing again for desktop screens */
+@media (min-width: 1024px) {
+  :root {
+    --space-large: 48px;
+  }
+}
+
+/* Basic styling for the whole website */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 360px;
+  background-color: var(--brand-purple);
+  color: var(--brand-black);
+  font-family: var(--font-body);
+  line-height: 1.3;
+  overflow-x: hidden;
+}
+
+/* Use Teko for headings and buttons */
+h1,
+h2,
+button {
+  font-family: var(--font-heading);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

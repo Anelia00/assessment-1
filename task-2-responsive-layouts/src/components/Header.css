@@ -1,0 +1,61 @@
+/* Main header layout */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-small);
+  padding: var(--space-small);
+  background-color: var(--brand-black);
+  color: var(--brand-white);
+  border-bottom: 4px solid var(--brand-teal);
+}
+
+/* Website logo */
+.header__logo {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--brand-yellow);
+}
+
+/* Hide the navigation links on mobile */
+.header__nav {
+  display: none;
+  gap: var(--space-large);
+}
+
+.header__nav a:hover,
+.header__nav a:focus-visible {
+  color: var(--brand-teal);
+}
+
+/* Smaller search button to fit inside the header */
+.header__search {
+  font-size: 1.25em;
+  padding: 8px var(--space-small);
+  line-height: 1.2;
+}
+
+/* Show navigation and increase text sizes on tablets */
+@media (min-width: 720px) {
+  .header__logo {
+    font-size: 3em;
+  }
+
+  .header__nav {
+    display: flex;
+    margin-right: auto;
+  }
+
+  .header__search {
+    font-size: 2em;
+  }
+}
+
+/* Adjust navigation spacing on desktop */
+@media (min-width: 1024px) {
+  .header__nav {
+    margin-right: 0;
+  }
+}

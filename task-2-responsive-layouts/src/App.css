@@ -1,0 +1,25 @@
+/* Main layout for the movie cards */
+.movie-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-large);
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: var(--space-large) 0;
+}
+
+/* On tablets, show two movies next to each other */
+@media (min-width: 720px) {
+  .movie-list {
+    grid-template-columns: 1fr 1fr;
+    padding: var(--space-large);
+  }
+}
+
+/* Keep the content within 900px on desktop */
+@media (min-width: 1024px) {
+  .movie-list {
+    padding: var(--space-large);
+    box-sizing: border-box;
+  }
+}

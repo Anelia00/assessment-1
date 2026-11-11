@@ -1,0 +1,80 @@
+/* Main styling for each movie card */
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--brand-white);
+  font-size: 1.5em;
+  box-shadow: 8px 8px 0 var(--brand-teal);
+}
+
+.movie-card__poster {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Keep the button at the bottom of each card */
+.movie-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--space-small);
+  padding: var(--space-small);
+}
+
+.movie-card__text {
+  flex: 1;
+}
+
+.movie-card__title {
+  margin: 0 0 8px;
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.movie-card__description {
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Remove the card shadows on mobile */
+@media (max-width: 719px) {
+  .movie-card {
+    box-shadow: none;
+  }
+}
+
+/* Different card layouts for desktop screens */
+@media (min-width: 1024px) {
+  /* Make the featured and wide cards take up both columns */
+  .movie-card--feature,
+  .movie-card--wide {
+    grid-column: 1 / -1;
+  }
+
+  /* Featured movie has a wide poster and button on the right */
+  .movie-card--feature .movie-card__poster {
+    aspect-ratio: 3 / 1;
+    object-position: center 25%;
+  }
+
+  .movie-card--feature .movie-card__body {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .movie-card--feature .movie-card__button {
+    flex: 0 0 30%;
+  }
+
+  /* Last three movies have the poster on the left */
+  .movie-card--wide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .movie-card--wide .movie-card__poster {
+    height: 100%;
+  }
+}
