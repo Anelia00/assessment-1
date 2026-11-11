@@ -131,4 +131,3 @@ This project forms part of **Web Development II – Assessment 1**.
 
 The source code is maintained in GitHub and includes the React components, CSS stylesheets, project assets and setup instructions.
 
-The repository is submitted through the university's Ultra submission portal in accordance with the arrangement confirmed with the module tutor.
