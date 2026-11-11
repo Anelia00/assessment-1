@@ -80,7 +80,7 @@ The **Teko** font is used for headings and buttons, while **Lato** is used for o
 
 5. Open the local URL displayed in the terminal.
 
-## Testing
+## Testing 
 
 The website was tested using Chrome Developer Tools at mobile, tablet and desktop viewport sizes.
 
